@@ -1,13 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.firebasetutorial"
+    namespace = "com.example.firebasetutorialapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.firebasetutorial"
+        applicationId = "com.example.firebasetutorialapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -41,6 +42,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+    implementation("com.google.firebase:firebase-database")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

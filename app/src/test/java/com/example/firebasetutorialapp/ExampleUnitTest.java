@@ -1,4 +1,4 @@
-package com.example.firebasetutorial;
+package com.example.firebasetutorialapp;
 
 import org.junit.Test;
 

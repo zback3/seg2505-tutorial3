@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.FirebaseTutorial" parent="Base.Theme.FirebaseTutorial">
+    <style name="Theme.FirebaseTutorialApp" parent="Base.Theme.FirebaseTutorialApp">
         <!-- Transparent system bars for edge-to-edge. -->
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
